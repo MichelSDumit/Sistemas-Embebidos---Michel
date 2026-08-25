@@ -1,14 +1,14 @@
-# Sistemas Embebidos
+# Sistemas Embebidos I (LIIE1214)
 
 Bienvenido 👋  
 Esta es una **plantilla** basada en [MkDocs](https://www.mkdocs.org/) + [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) para cursos y proyectos.
 
 ---
 
-## Empezar rápido (3 pasos)
+## Información sobre mí
 
-1. **Edita el nombre del sitio** en `mkdocs.yml`:
-   ```yaml
-   site_name: Documentación del Curso
-   theme:
-     name: material
+**Michel Sánchez Dumit** 
+
+**Número de cuenta:** 197494
+
+**Contacto:** 197494@iberopuebla.mx
