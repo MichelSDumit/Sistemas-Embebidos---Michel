@@ -5,7 +5,6 @@ This page serves as an evidence portfolio of the work completed throughout the s
 ## Course Objective
 
 Learn to design and program embedded systems at the hardware level using the RP2350, integrating sensors, actuators, communication, and real-time processing to develop autonomous and functional systems.
-
  ---
 Within this course, fundamental topics for the development and programming of **embedded systems** are covered, including:
 
@@ -18,8 +17,9 @@ Within this course, fundamental topics for the development and programming of **
 * **Testing and Validation** — Application of **unit testing** and debugging techniques to verify proper system operation.
 * **Capstone Project: Micromouse** — Integration of the acquired knowledge to develop an autonomous system capable of navigating a competitive environment.
 
----
+<img src="../recursos/imgs/LOGO IBERO.png" width="420">
 
+---
 ## About me 
 
 **Michel Sánchez Dumit** 
