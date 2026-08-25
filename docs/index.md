@@ -18,7 +18,6 @@ Within this course, fundamental topics for the development and programming of **
 * **Testing and Validation** — Application of **unit testing** and debugging techniques to verify proper system operation.
 * **Capstone Project: Micromouse** — Integration of the acquired knowledge to develop an autonomous system capable of navigating a competitive environment.
 
-
 ---
 
 ## About me 
