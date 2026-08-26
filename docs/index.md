@@ -1,4 +1,4 @@
-# Embedded Systems I (LIIE1214)
+# Introduction
 
 This page serves as an evidence portfolio of the work completed throughout the semester in the **Embedded Systems** course, taught by **Professor Oliver Ochoa Garcia**.
 
