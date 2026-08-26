@@ -1,4 +1,4 @@
-site_name: Plantilla para Documentación
+site_name: Embedded Systems I  - Michel Sánchez Dumit
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
