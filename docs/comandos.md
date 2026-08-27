@@ -7,7 +7,7 @@
 sdjbfhjhegfjhvvberiberi
 
 ## Circuit assembly for the exercises
-(imagen simulación)
+![Circuito ensamblado](recursos/imgs/b1/Circuitogpio.png)
 
 ## Exercise 1 — 4 bit binary counter
 Use the four LEDs as a 4-bit binary number.
