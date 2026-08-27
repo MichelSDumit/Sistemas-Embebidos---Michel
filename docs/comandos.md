@@ -57,7 +57,7 @@ Code:
     }
 ``` 
 ### **Video**
-![Circuito 2](recursos/imgs/b1/c2.mp4)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Hz5yY8PzAKI?si=VSz3jlO33kRY7W3u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Exercise 3 — Fill and empty animation
 Create an animation that progressively fills all four LEDs and then progressively empties them.
@@ -86,7 +86,7 @@ sleep_ms(200);
 ``` 
 
 ### **Video**
-![Circuito 3](recursos/imgs/b1/c3.mp4)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zvCyZKG_jzU?si=4RI2UiFp2iaTjj68" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Exercise 4 — Fill from the outside inward
 Create an animation that progressively fills all four LEDs and then progressively empties them.
