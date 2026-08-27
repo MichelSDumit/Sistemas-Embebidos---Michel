@@ -32,7 +32,7 @@ counter++;
 ```  
 
 ### **Video**
-![Circuito 1](recursos/imgs/b1/c1.mp4)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q7dsG-ETAew?si=7dKkriQLZ3vq-5zB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Exercise 2 — Bouncing light
 Create a light that moves across the four LEDs and then returns. 
