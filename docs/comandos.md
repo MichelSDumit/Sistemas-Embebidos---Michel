@@ -32,7 +32,7 @@ counter++;
 ```  
 
 ### **Video**
-(Video del C1 funcionando)
+![Circuito 1](recursos/imgs/b1/c1.mp4)
 
 ## Exercise 2 — Bouncing light
 Create a light that moves across the four LEDs and then returns. 
@@ -57,7 +57,7 @@ Code:
     }
 ``` 
 ### **Video**
-(video del C2 funcionando)
+![Circuito 2](recursos/imgs/b1/c2.mp4)
 
 ## Exercise 3 — Fill and empty animation
 Create an animation that progressively fills all four LEDs and then progressively empties them.
@@ -86,7 +86,7 @@ sleep_ms(200);
 ``` 
 
 ### **Video**
-(video del C3 funcionando)
+![Circuito 3](recursos/imgs/b1/c3.mp4)
 
 ## Exercise 4 — Fill from the outside inward
 Create an animation that progressively fills all four LEDs and then progressively empties them.
