@@ -128,7 +128,13 @@ Code:
 ### **Video**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gMO9P1rv6QY?si=1lvuD-RQE6oLm1Rq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Diclosure 
+### What could have gone better
+
+Even though all of our codes worked correctly, I think we could have paid more attention to the theory from the beginning. We also could have experimented more with the circuit and the program to better understand how everything works. This would have helped us feel more confident with the code instead of mainly focusing on getting the expected result. 
+
+### Conclusion
+
+Overall, this practice helped us understand better how the GPIO pins and LEDs can be controlled using binary values and masks. At first, we were a little confused about the theory, but after reviewing it and practicing with different codes, we were able to create the four animations successfully. It also helped us see how small changes in the code can create different patterns and made us more comfortable working with the RP2350.
 
 
 
