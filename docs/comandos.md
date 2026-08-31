@@ -19,7 +19,19 @@ Use the four LEDs as a 4-bit binary number.
 
 Code gived by Chatgpt:
 ```  
-
+  while (true) {
+        // Apagar todos los LEDs
+        sio_hw->gpio_clr = MASK;
+        // Encender los LEDs según el número binario
+        sio_hw->gpio_set = number;
+        // Esperar
+        sleep_ms(500);
+        // Siguiente número
+        number++;
+        // Regresar a 0 después de 15
+        if (number > 15) {
+            number = 0;
+        }
 ```  
 
 Code made by ourselfs:
@@ -74,7 +86,7 @@ sio_hw->gpio_set = 0b0100;
 sleep_ms(200);
 sio_hw->gpio_set = 0b1000;
 sleep_ms(200);
- 
+
 sio_hw->gpio_clr = 0b1000;
 sleep_ms(200);
 sio_hw->gpio_clr = 0b0100;
@@ -95,11 +107,20 @@ Create an animation that progressively fills all four LEDs and then progressivel
 
 Code:
 ``` 
-todavia no lo hacemos jiji
+   while (true) {
+   sio_hw->gpio_set = 0b1001;  
+    sleep_ms(200);
+    sio_hw->gpio_set = 0b0110;  
+    sleep_ms(200);
+
+    sio_hw->gpio_clr = 0b1001;  
+    sleep_ms(200);
+    sio_hw->gpio_clr = 0b0110;   
+    sleep_ms(200); }
 ``` 
 
 ### **Video**
-(video del C4 funcionando)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gMO9P1rv6QY?si=1lvuD-RQE6oLm1Rq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
