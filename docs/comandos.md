@@ -4,8 +4,6 @@
 
 ## What I Learned
 
-## What I Learned
-
 In this practice, I learned how to control the GPIO pins of the RP2W and how each register affects their behavior. I also learned how binary numbers and masks can be used to control specific pins, and how the << operation moves bits to create the value needed. Finally, I understood better how the Pico SDK functions work and how they are connected to the SIO registers.
 
 
