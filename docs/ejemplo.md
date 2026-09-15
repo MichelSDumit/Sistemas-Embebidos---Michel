@@ -16,6 +16,7 @@ In this practice, I learned how to configure and use digital inputs on the Raspb
 ## Exercise 1 - AND
 
 ### What I did 
+For this exercise, we used what we had learned about digital inputs to control four LEDs using two switches. We programmed the LEDs to turn on only when both switches were pressed at the same time, using a logical AND condition. This helped us understand how multiple inputs can be combined to control several outputs.
 
 Code:
 ```  
@@ -36,6 +37,8 @@ while (true) {
 ## Exercise 2 - OR
 
 ### What I did 
+For this exercise, we used what we had learned about digital inputs to control four LEDs using two switches. We programmed the LEDs to turn on when either button A or button B was pressed, using a logical OR condition. Since the switches used pull-up resistors, a pressed button was read as 0.
+
 
 Code:
 ```  
@@ -57,6 +60,8 @@ while (true) {
 ## Exercise 3 - XOR
 
 ### What I did 
+For this exercise, we used what we had learned about digital inputs to control four LEDs using a switch. We programmed the LEDs to turn on only when exactly one of the two buttons was pressed, using a logical XOR condition. The LEDs stayed off when neither button or both buttons were pressed, helping us understand how XOR works with multiple digital inputs.
+
 
 Code:
 ```  
@@ -82,9 +87,11 @@ Code:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XBOCYfJYCi4?si=FX9pxb4ilZyHGAkv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Exercise 4 - 
+## Exercise 4 - Shift the lit LED
 
 ### What I did 
+For this exercise, we used a switch to control a counter from 0 to 3 and four LEDs to show the current position of the counter. One button increased the counter and the other decreased it, while a `flag` made sure each press was counted only once instead of repeating while the button was held. The counter also wrapped around at both ends of the four-LED bus.
+
 
 Code:
 ```  
