@@ -1,74 +1,67 @@
-# 📚 Ejemplo de Documentación del Proyecto
+# Digital inputs
 
-> Plantilla genérica para documentar proyectos académicos o de ingeniería.  
-> Copia y adapta las secciones según tu necesidad.
-
----
-
-## 1) Resumen
-
-- **Nombre del proyecto:** _Mi Proyecto_  
-- **Equipo / Autor(es):** _Nombre(s)_  
-- **Curso / Asignatura:** _Nombre del curso_  
-- **Fecha:** _DD/MM/AAAA_  
-- **Descripción breve:** _Una o dos líneas que expliquen qué hace y por qué._
-
-!!! tip "Consejo"
-    Mantén este resumen corto (máx. 5 líneas). Lo demás va en secciones específicas.
+**Goal:** Learn how to configure and use digital inputs on the Raspberry Pi Pico 2 understanding pull-ups, pull-downs and debounce techniques to correctly read buttons and avoid unstable signals.
 
 ---
 
-## 2) Objetivos
+## What I learned
 
-- **General:** _Qué se pretende lograr en términos amplios._
-- **Específicos:**
-  - _OE1…_
-  - _OE2…_
-  - _OE3…_
-
-## 3) Alcance y Exclusiones
-
-- **Incluye:** _Qué funcionalidades/entregables sí están en el proyecto._
-- **No incluye:** _Qué queda fuera para evitar malentendidos._
+In this practice, I learned how to configure and use digital inputs on the Raspberry Pi Pico 2 to read the state of a button. I also learned how pull-up and pull-down resistors prevent inputs from floating and how the input can be read as a high or low logic level. Finally, I understood the importance of debounce and how it helps avoid false readings caused by the mechanical bouncing of a button.
 
 ---
 
-## 4) Requisitos
+## Circuit assembly for the exercises
+![Circuito ensamblado](recursos/imgs/b1/simulacion2.png)
 
-**Software**
-- _SO compatible (Windows/Linux/macOS)_
-- _Python 3.x / Node 18+ / Arduino IDE / etc._
-- _Dependencias (p. ej., pip/requirements, npm packages)_
+## Exercise 1 
 
-**Hardware (si aplica)**
-- _MCU / Sensores / Actuadores / Fuente de poder_
-- _Herramientas (multímetro, cautín, etc.)_
+### What I did 
 
-**Conocimientos previos**
-- _Programación básica en X_
-- _Electrónica básica_
-- _Git/GitHub_
+Code:
+```  
+
+```  
+### **Video**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rilfPv1joAg?si=qmqgm0HywIDT9_bu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Exercise 2
+
+### What I did 
+
+Code:
+```  
+
+```  
+### **Video**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JCdVKcYEekI?si=hLpyJ5z0J91KImnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Exercise 3 
+
+### What I did 
+
+Code:
+```  
+
+```  
+### **Video**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XBOCYfJYCi4?si=FX9pxb4ilZyHGAkv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Exercise 4 
+
+### What I did 
+
+Code:
+```  
+
+```  
+### **Video**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eUvwro2iH7g?si=nyCovm18Fm0YI6Qa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
-
-## 5) Instalación
-
-```bash
-# 1) Clonar
-git clone https://github.com/<usuario>/<repo>.git
-cd <repo>
-
-# 2) (Opcional) Crear entorno virtual
-python -m venv .venv
-# macOS/Linux
-source .venv/bin/activate
-# Windows (PowerShell)
-.venv\Scripts\Activate.ps1
-
-# 3) Instalar dependencias (ejemplos)
-pip install -r requirements.txt
-# o, si es Node:
-npm install
 
 
 ```
