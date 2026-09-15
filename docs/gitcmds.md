@@ -14,7 +14,7 @@ In this practice, I learned how interrupts allow the RP2350 to respond to events
 
 ![Circuito ensamblado](recursos/imgs/b1/circuito3.png)
 
-## Roulette 
+## **Roulette**
 
 ### What I did 
 For this exercise, we created a roulette using five LEDs that turned on in sequence from one side to the other and then back again. We added one button to increase the speed and another button to decrease it. Finally, we used a third button that, when pressed while the middle LED was on, turned on all five LEDs before continuing with the sequence.
