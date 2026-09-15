@@ -17,6 +17,7 @@ In this practice, I learned how interrupts allow the RP2350 to respond to events
 ## Roulette 
 
 ### What I did 
+For this exercise, we created a roulette using five LEDs that turned on in sequence from one side to the other and then back again. We added one button to increase the speed and another button to decrease it. Finally, we used a third button that, when pressed while the middle LED was on, turned on all five LEDs before continuing with the sequence.
 
 Code
 
@@ -81,5 +82,8 @@ static void FUNCION_STOP(uint GPIO, uint32_t event){
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HhzLsmht66k?si=Mi76epTDMk2EnSfF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### What could have gone better
+At first, the buttons for increasing and decreasing the speed were not working as expected. After testing and changing different parts of the code, I realized that I needed to remove the speed value controlled by the vel variable that we had previously declared as volatile. Once I made this change, the buttons worked correctly and I was able to control the speed as intended.
 
 ### Conclusion
+Overall, this practice helped us understand better how interrupts can be used to control different actions without constantly checking the buttons. At first, we had some problems getting the speed buttons to work, but after testing the code, we found the issue and were able to fix it. Creating the LED roulette also helped us understand how multiple interrupts and variables can work together to control the sequence, speed, and special action of the LEDs.
+
