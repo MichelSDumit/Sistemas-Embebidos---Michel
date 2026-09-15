@@ -119,4 +119,12 @@ while (true) {
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eUvwro2iH7g?si=nyCovm18Fm0YI6Qa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+### What could have gone better
+
+Even though all of our codes worked correctly, I think we could have experimented more with the circuit and the program to better understand how everything works. This would have helped us feel more confident with the code instead of mainly focusing on getting the expected result. 
+
+### Conclusion
+
+Overall, this practice helped us understand better how digital inputs work and how buttons can be used to control the GPIO pins of the Raspberry Pi Pico 2. At first, we were a little confused about pull-ups, pull-downs, and debounce, but after reviewing the theory and testing the code, we were able to read the button states correctly. It also helped us understand the importance of avoiding floating inputs and made us more comfortable working with digital inputs and the RP2350.
+
 ---
