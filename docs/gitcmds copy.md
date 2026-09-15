@@ -1,4 +1,4 @@
-# 🚀 Comandos básicos de Git (primeros pasos)
+# First exam
 
 En este curso solo usaremos los comandos esenciales de Git para trabajar con repositorios.
 
