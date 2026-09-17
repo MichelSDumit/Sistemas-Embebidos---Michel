@@ -1,7 +1,7 @@
 # First exam
 
 ## Circuit assembly for the exercises
-
+![Circuito ensamblado](recursos/imgs/circuitoexamen.jpeg)
 
 ### What We did 
 For the exam, we created a game based on Lights Out, using a breadboard with a 3×3 matrix of 9 LEDs and 10 buttons. One of the buttons was used to generate a random initial configuration of the LEDs, while the other nine buttons corresponded to each LED in the matrix.
