@@ -1,4 +1,4 @@
-# Block 1 - GPIO 
+# Outputs
 
 **Goal:** to understand and control GPIO peripherals through memory-mapped registers, bitwise operations, masks, and RP2350 SIO registers.
 
