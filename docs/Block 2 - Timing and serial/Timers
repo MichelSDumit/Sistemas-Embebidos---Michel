@@ -1,0 +1,28 @@
+# Timers
+
+**Goal:** to understand and implement timing and periodic events using the Pico hardware alarms, while analyzing period, frequency, resolution, latency, jitter, and drift, and recognizing when hardware peripherals such as PWM are more appropriate than CPU interrupts.
+
+
+## What I Learned
+
+In this practice, I learned 
+
+## Exercise 1 
+
+
+### What I did 
+
+
+### **Video**
+
+
+### What could have gone better
+
+
+### Conclusion
+
+
+
+
+
+
