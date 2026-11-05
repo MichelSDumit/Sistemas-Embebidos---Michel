@@ -52,15 +52,15 @@ a. The callback can take almost all the available time and events might get dela
 5. Does a longer callback necessarily change the HIGH/LOW duty cycle of CH1? Explain from the measured edges rather than from the source code alone.
 a. Not necessarily, you have to check it on the oscilloscope. If the HIGH and LOW changes still have roughly the same duration, the duty cycle will stay around 50%. The important thing is to measure the edges of CH1, not just assume it from the code.
 
-### Part D — Make main() visibly do something else
+## Part D — Make main() visibly do something else
 
 In this activity, we kept the repeating timer running on GP15 while using the main() function to perform an independent task, such as detecting push button presses. We made sure that the timer callback did not handle the button, allowing both tasks to run independently. Using the oscilloscope, we verified that interacting with the button did not significantly affect the timing of the output waveform. This helped us understand how hardware timers keep track of time independently of the main program, allowing the CPU to perform other tasks without interrupting periodic events.
 
-### What could have gone better
+## What could have gone better
 
 Although all the experiments worked correctly, we could improve our work by performing more measurements to obtain more accurate results and comparing them with the theoretical values. We could also test different timer intervals and callback workloads to better understand the limits of the RP2350 timer. Additionally, we could improve our documentation by explaining the small variations observed in the oscilloscope and analyzing how latency and jitter affect signal accuracy.
 
-### Conclusion
+## Conclusion
 
 In conclusion, this practice helped us understand how timers work in the RP2350 and how they can generate periodic events without stopping the main program. Through the different experiments, we learned how to configure repeating timers, measure waveforms using an oscilloscope, and analyze characteristics such as period, frequency, duty cycle, latency, and jitter. We also explored how callback execution time and timer delays affect the generated signals, as well as how hardware alarms and interrupts work. Overall, we gained a better understanding of how hardware and software work together to manage time efficiently, allowing the microcontroller to perform multiple tasks while maintaining accurate timing.
 
