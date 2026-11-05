@@ -1,6 +1,6 @@
-# ADC
+# ADC - Analog-to-Digital Converter
 
-**Goal:** to understand and implement timing and periodic events using the Pico hardware alarms, while analyzing period, frequency, resolution, latency, jitter, and drift, and recognizing when hardware peripherals such as PWM are more appropriate than CPU interrupts.
+**Goal:** 
 
 
 ## What I Learned

@@ -1,6 +1,6 @@
-# I2C
+# I2C - Inter-Integrated Circuit
 
-**Goal:** to understand and implement timing and periodic events using the Pico hardware alarms, while analyzing period, frequency, resolution, latency, jitter, and drift, and recognizing when hardware peripherals such as PWM are more appropriate than CPU interrupts.
+**Goal:** 
 
 
 ## What I Learned
