@@ -62,7 +62,7 @@ Although all the experiments worked correctly, we could improve our work by perf
 
 ## Conclusion
 
-In conclusion, this practice helped us understand how timers work in the RP2350 and how they can generate periodic events without stopping the main program. Through the different experiments, we learned how to configure repeating timers, measure waveforms using an oscilloscope, and analyze characteristics such as period, frequency, duty cycle, latency, and jitter. We also explored how callback execution time and timer delays affect the generated signals, as well as how hardware alarms and interrupts work. Overall, we gained a better understanding of how hardware and software work together to manage time efficiently, allowing the microcontroller to perform multiple tasks while maintaining accurate timing.
+This practice helped us understand how timers work in the RP2350 and how they can generate periodic events without stopping the main program. Through the different experiments, we learned how to configure repeating timers, measure waveforms using an oscilloscope, and analyze characteristics such as period, frequency, duty cycle, latency, and jitter. We also explored how callback execution time and timer delays affect the generated signals, as well as how hardware alarms and interrupts work. Overall, we gained a better understanding of how hardware and software work together to manage time efficiently, allowing the microcontroller to perform multiple tasks while maintaining accurate timing.
 
 
 
