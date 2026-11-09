@@ -15,7 +15,7 @@ In this practice, I learned how to use the ADC of the RP2350 to read analog sign
 - Microphone
 
 ## Light sensor Circuit 
-![Circuito](recursos/imgs/light sersor.png)
+![SensorLuz](../recursos/imgs/light%20sensor.png)
 
 ### Code
 ```
@@ -51,6 +51,7 @@ int main() {
 ```
 
 ## Temperature sensor Circuit 
+![SensorTemp](../recursos/imgs/temp%20sen.png)
 
 ### Code
 ```
@@ -83,7 +84,7 @@ int main() {
 }
 ```
 ## Potentiometer Circuit 
-
+![Potenciometro](../recursos/imgs/potentiometer.png)
 ### Code
 ```
 #include <stdio.h>
@@ -113,8 +114,7 @@ int main() {
 }
 ```
 
-## Microphone Circuit 
-
+## Microphone
 ### Code
 ```
 
