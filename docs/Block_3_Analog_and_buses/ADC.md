@@ -115,9 +115,37 @@ int main() {
 ```
 
 ## Microphone
+![Microfono](../recursos/imgs/Captura%20de%20pantalla%202026-11-09%20a%20la(s)%206.45.46 p.m..png)
 ### Code
 ```
+#include <stdio.h>
+#include "pico/stdlib.h"
+#include "hardware/adc.h"
+#define ADC_INPUT 0 
+#define ADC 3.3f
+#define N 100   
 
+int main() {
+    stdio_init_all();
+    adc_init();
+    adc_gpio_init(26); // GPIO26 -> ADC0
+    adc_select_input(ADC_INPUT);
+    while (true) {
+        uint16_t minimo = 4095;
+        uint16_t maximo = 0;
+        for (int i = 0; i < N; i++) {
+            uint16_t adc = adc_read(); // 12 bits 0..4095
+            if (adc < minimo) minimo = adc;
+            if (adc > maximo) maximo = adc;
+            sleep_us(100);
+        }
+        uint16_t pp = maximo - minimo; // amplitud del sonido
+        float porcentaje = (pp * 100.0f) / 3374.0f;
+        printf("%u\n", pp);
+        printf("%.1f\n", porcentaje);
+        sleep_ms(500);
+    }
+}
 ```
 
 ### What could have gone better
