@@ -29,7 +29,7 @@ theme:
   highlightjs: true 
   palette:
       - scheme: default
-        primary: pink
+        primary: ffa6bd
 
   features:
     - content.code.copy
